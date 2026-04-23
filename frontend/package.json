@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "typecheck": "tsc --noEmit",
+    "build": "npx vite build",
+    "typecheck": "npx tsc --noEmit",
     "preview": "vite preview",
     "test": "jest --config jest.config.cjs",
     "lint": "eslint src --ext .ts,.tsx"
