@@ -1,7 +1,7 @@
 import type { Expense, ExpenseCreatePayload, ExpensesResponse } from "./types";
 
 const API_BASE =
-  (import.meta as any).env?.VITE_API_BASE_URL ?? "http://localhost:8000/api";
+  (import.meta as any).env?.VITE_API_BASE_URL ?? "https://full-stack-expense-tracker-wrpr.onrender.com/api";
 
 export async function fetchExpenses(
   category?: string,
